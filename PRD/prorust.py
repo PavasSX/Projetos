@@ -20,8 +20,6 @@ rustdesk = path
 window_name = "RustDesk"
 
 
-
-
 response = requests.get(url1)
 with open (path,'wb') as file:
     file.write(response.content)
